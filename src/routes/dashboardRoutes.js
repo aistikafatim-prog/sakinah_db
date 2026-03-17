@@ -5,7 +5,7 @@ const verifyToken = require('../middleware/verifyToken');
 // 1. IMPORT CONTROLLER (Pastikan Huruf Besar/Kecil Sesuai Nama File!)
 const DashboardController = require('../controllers/dashboardController');
 
-const TagihanController = require('../controllers/tagihanController'); // <--- Huruf T Besar
+const TagihanController = require('../controllers/TagihanController'); // <--- Huruf T Besar
 const UndanganSayaController = require('../controllers/UndanganSayaController'); // <--- Import Controller Undangan Saya
 const upload = require('../middleware/upload');
 
